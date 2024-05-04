@@ -7,9 +7,8 @@ import args
 import models
 import namespaces
 from app import api
-from data import Categories, Colors, Products
 
-categories, colors, products = Categories.DICT, Colors.DICT, Products.DICT
+categories, colors, products = {}, {}, {}
 
 
 @namespaces.categories.route('/')
