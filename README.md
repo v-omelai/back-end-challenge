@@ -2,7 +2,7 @@
 
 ## Overview
 
-Simple REST using Flask & Flask-RESTX.
+Simple REST API using Flask, Flask-RESTX & Redis.
 
 ## Usage
 
